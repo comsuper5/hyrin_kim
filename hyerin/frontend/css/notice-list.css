@@ -1,0 +1,64 @@
+/* notice; 해당 공간 영역 */
+.notice-space {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+/* notice; 해당 폰트 영역 */
+.notice-font {
+  padding-left: 180px;
+  padding-top: 40px;
+  position: inherit;
+  color: #000;
+  font-family: Noto Sans KR;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* 검색 영역 부분 */
+.notice-search {
+  width: 5px;
+  height: 5px;
+  padding-right: 340px;
+  padding-top: 80px;
+  position: inherit;
+  color: #000;
+  font-family: Noto Sans KR;
+  /* font-size: 48px; */
+  font-style: normal;
+  line-height: normal;
+}
+
+/* 상단 제목, 글쓴이 바 영역 */
+.notice-list-bar {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+/* 목록 라인 부분 */
+.notice-list {
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  list-style-type: none;
+  border-bottom: solid black;
+}
+
+/* 글쓰기 버튼 부분 */
+.btn-write {
+  padding-right: 120px;
+  float: right;
+  align-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 테스트로 마구자비로 넣은거 */

@@ -1,0 +1,73 @@
+/* notice; 해당 폰트 영역 */
+.notice {
+  margin-left: 20px;
+  padding-left: 180px;
+  padding-top: 40px;
+  position: inherit;
+  color: #000;
+  font-family: Noto Sans KR;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* 제목 작성일자 글쓴이 라인만들기 */
+.notice-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid rgba(61, 61, 61, 0.2);
+  padding: 20px 30px 10px 20px;
+  margin: 20px 20px 10px 20px;
+}
+
+/* Notice 로고 */
+.notice {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+/* 내용입력란은 따로 만들어줌 */
+.notice-page-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(61, 61, 61, 0.2);
+  padding: 135px 30px 10px 20px;
+  margin: 20px 20px 10px 20px;
+}
+
+/* 아이디, 비밀번호, 확인 영역 */
+.cofirm-identity {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+/* 아이디, 비밀번호 input 영역 */
+.notice-modify-text-write input {
+  margin-left: 20px;
+  padding: 50px;
+  width: 1700px;
+  height: 5px;
+  font-size: 16px;
+}
+
+/* footer 영역 */
+footer {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  align-content: flex-end;
+}
+
+/* 목록, 수정 삭제 , 글쓰기 영역 */
+.notice-modify-btn__list {
+  padding: 10px;
+}

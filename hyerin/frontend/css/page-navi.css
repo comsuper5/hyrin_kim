@@ -1,0 +1,25 @@
+/* 하단 페이지 네비게이션 부분 */
+.page-navi {
+  padding-top: 120px;
+  padding-bottom: 150;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* 하단 페이지 네비게이션 버튼 부분 */
+.btn-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 글쓰기 버튼 부분 */
+.btn-write button {
+  padding-right: 10px;
+  float: right;
+  align-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

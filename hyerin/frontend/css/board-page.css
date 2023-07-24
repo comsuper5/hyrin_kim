@@ -1,0 +1,82 @@
+/* board; 해당 폰트 영역 */
+.board {
+  margin-left: 20px;
+  padding-left: 180px;
+  padding-top: 40px;
+  position: inherit;
+  color: #000;
+  font-family: Noto Sans KR;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* 제목 작성일자 글쓴이 라인만들기 */
+.board-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid rgba(61, 61, 61, 0.2);
+  padding: 20px 30px 10px 20px;
+  margin: 20px 20px 10px 20px;
+}
+
+/* 볼드 로고 */
+.board {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+/* 내용입력란은 따로 만들어줌 */
+.board-page-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(61, 61, 61, 0.2);
+  padding: 135px 30px 10px 20px;
+  margin: 20px 20px 10px 20px;
+}
+
+/* 아이디, 비밀번호, 확인 영역 */
+.cofirm-identity {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+/* 아이디, 비밀번호 input 영역 */
+.board-modify-text-write input {
+  align-items: center;
+  margin-left: 20px;
+  padding: 50px;
+  width: 1700px;
+  height: 12px;
+  font-size: 16px;
+}
+
+.board-modify-text-write {
+  margin-right: 20px;
+  display: flex;
+  width: 1700px;
+  align-items: center;
+  padding: 50px;
+}
+
+/* footer 영역 */
+footer {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  align-content: flex-end;
+}
+
+/* 목록, 수정 삭제 , 글쓰기 영역 */
+.board-modify-btn__list {
+  padding: 10px;
+}
